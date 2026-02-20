@@ -24,12 +24,33 @@
 
   <main>
     <section id="variables">
-      <h2>Variables & Types</h2>
-      <p>Explications et exemples ici.</p>
-      <pre><code>// Exemple de code
+      <h2>Variables & Types - Jour 1</h2>
+      <p>
+        Objectif : comprends let, const, var et les types primitifs (string, number, boolean, null, undefined).
+      </p>
+
+      <h3>Explications</h3>
+      <p>Les variables sont des conteneurs pour stocker des données. En JavaScript, il existe trois façons de déclarer une variable : let, const et var.</p>
+      <p>let : variable pouvant changer de valeur</p>
+      <p>const : variable dont la valeur ne peut pas changer</p>
+      <p>var : ancienne façon de déclarer une variable, variable dépréciée, moins utilisée dans les codes modernes. Ne pas être surpris de le trouver dans de vieux codes.</p>
+      
+      <h3>Exemples pratiques</h3>
+        <pre><code>// Exemple simple de code
 let nom = "Richard";
 const age = 46;
-</code></pre>
+var pays = "France";
+
+console.log(nom, age, pays);
+        </code></pre>
+
+        <h3>Exercices</h3>
+        <ol>
+          <li>Déclare 3 variables différentes de chaque type</li>
+          <li>Tester "typeof" pour chaque variable</li>
+          <li>Faire une conversion string -> number -> boolean</li>
+        </ol>
+
     </section>
 
     <section id="fonctions">
